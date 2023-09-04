@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background: url(pexels-photo-176851.jpeg);
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 50%;
+    color: white;
+}
+#logo-img{
+    width: 200px;
+    height: 40px;
+    margin-right: 30px;
+    text-decoration-color: white;
+    visibility: visible;
+} 
+
+#logo{
+    visibility: visible;
+    color: #fff;
+}
+
+/* ul{
+    list-style: none;
+    height: 100%;
+    width: 100px; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    align-items: row ;
+} */
+
+/* ul li{
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+ul li a:hover{
+    background: black;
+    color: blue;
+} */
+
+#section2{
+    background: url(pexels-photo-176851.jpeg);
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    /* justify-content: center; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+/* #section2 h1,p{
+    color: white;
+    justify-content: center;
+    text-align: left;
+} */
+
+#section2 h1{
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+#section2 p{
+    width: 80%;
+    color:#fff;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+#section3{
+    background-size: 100%;
+    width: 100%; 
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#About{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ankita_pic img{ 
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+    transition: transform 0.2s;
+} 
+
+.ankita_pic img:hover{
+    transform: scale(1.01);
+}
+
+.ankita_pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dp{
+    margin: 10px 10px;
+}
+
+#section3 h3{
+    margin-bottom: 5px;
+}
+
+#section3 p{
+    margin-top: 0px;
+}
+
+/* p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}  */
+
+/* #about me p {
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+/* .ankita_pic img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+  }  */
+
+.footer-social-icon{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Follow{
+    text-align: center;
+}
+
+.social-icon{
+    color: black;
+}
+
+ul.social-icons{
+    margin-top: 10px;
+}
+
+.social-icons li{
+    vertical-align: top;
+    display: inline;
+    height: 200px;
+    list-style: none;
+}
+
+/* .social-icons a{ 
+    color: #fff;
+    text-decoration: none; 
+} */
+
+ .fa-brands fa-square-instagram{ 
+    padding: 10px 14px;
+    transition: .5s;
+    background-color: black;
+}
+
+.fa-brands fa-square-instagram:hover{
+    background-color: red;
+}
+
+.fa-brands fa-linkedin{
+    padding: 10px 14px;
+    transition: .5s;
+    background-color: black;
+}
+
+.fa-brands fa-linkedin:hover{
+    background-color: burlywood;
+}
+
+.fa-brands fa-square-github{
+    padding: 10px 14px;
+    transition: .5s;
+    background-color: black;
+}
+
+.fa-brands fa-square-github:hover{
+    background-color: magenta;
+} 
